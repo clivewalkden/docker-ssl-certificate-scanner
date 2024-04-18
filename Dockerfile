@@ -11,4 +11,4 @@ WORKDIR /opt/phishing_catcher
 RUN pip3 install -r requirements.txt
 
 WORKDIR /opt/phishing_catcher
-ENTRYPOINT ["python3", "./catch_phishing.py”]
+ENTRYPOINT ["python3", "./catch_phishing.py"]
